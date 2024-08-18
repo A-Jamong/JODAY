@@ -8,7 +8,7 @@ const getDayOfWeek = (date: Date) => {
 const TodayDate = () => {
   const now = new Date();
   const year = now.getFullYear();
-  const month = now.getMonth() + 1; // 0-indexed
+  const month = now.getMonth() + 1;
   const day = now.getDate();
   const weekday = getDayOfWeek(now);
   return (
