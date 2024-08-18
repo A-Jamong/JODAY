@@ -1,6 +1,8 @@
+@import "./_theme.css";
+
 :root {
-  --white: #fff;
-  --black: #000;
+  --white: var(--primitives-color-gray-10);
+  --black: var(--primitives-color-black);
 
   --rounded-xs: 2px;
 }

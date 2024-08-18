@@ -1,0 +1,61 @@
+.button {
+  all: unset;
+  align-items: center;
+  border-radius: 12px;
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 18px 20px;
+  position: relative;
+}
+
+.button .label {
+  font-family: "Pretendard-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button.disabled {
+  background-color: var(--semantics-button-disabled-background);
+}
+
+.button.primary {
+  background-color: var(--semantics-button-background);
+}
+
+.button.secondary {
+  background-color: var(--semantics-button-secondary-background);
+}
+
+.button.disabled .label {
+  color: var(--semantics-button-disabled-label);
+}
+
+.button.primary .label {
+  color: var(--semantics-button-label);
+}
+
+.button.secondary .label {
+  color: var(--semantics-button-secondary-label);
+}
+
+/* SVG fill 색상 정의 */
+.button.primary .icon {
+  fill: var(--semantics-button-label);
+}
+
+.button.secondary .icon {
+  fill: var(--semantics-button-secondary-label);
+}
+
+.button.disabled .icon {
+  fill: var(--semantics-button-disabled-label);
+}

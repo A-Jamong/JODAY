@@ -4,7 +4,7 @@ interface LogoProps {
   type: "stereo" | "mono";
 }
 
-export const Logo = ({ type }: LogoProps) => {
+const Logo = ({ type }: LogoProps) => {
   return (
     <img
       className={`logo`}
@@ -14,3 +14,4 @@ export const Logo = ({ type }: LogoProps) => {
     />
   );
 };
+export default Logo;
