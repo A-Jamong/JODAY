@@ -4,7 +4,7 @@ import Logo from "./components/logo";
 import Title from "./components/Title";
 import TodayDate from "./components/Date";
 import Button from "./components/Button";
-// import { Navigation } from "./components/Navigation";
+import Navigation from "./components/Navigation";
 // import { TodoList } from "./components/TodoList";
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
       <Title titleText="우리, 오늘 뭐할까?" />
       <TodayDate />
       <Button label="생각났어?" type="primary" isShowIcon />
-      {/* <Navigation /> */}
+      <Navigation />
       {/* <TodoList /> */}
     </div>
   );

@@ -1,0 +1,68 @@
+.status {
+  align-items: flex-end;
+  display: inline-flex;
+  gap: 0.25rem;
+  position: relative;
+}
+
+.status .label {
+  font-family: "Pretendard-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.status .count {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 2px 4px;
+  position: relative;
+}
+
+.status .element {
+  color: var(--semantics-background);
+  font-family: "Pretendard-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.status .done {
+  color: var(--semantics-status-deactive);
+}
+
+.status .keep {
+  color: var(--semantics-status-deactive);
+}
+
+.status .all {
+  color: var(--semantics-status-active);
+}
+.status .doing {
+  color: var(--semantics-status-deactive);
+}
+
+.status .state-done {
+  background-color: var(--semantics-status-deactive);
+}
+.status .state-keep {
+  background-color: var(--semantics-status-deactive);
+}
+.status .state-all {
+  background-color: var(--semantics-status-active);
+}
+.status .state-doing {
+  background-color: var(--semantics-status-deactive);
+}
