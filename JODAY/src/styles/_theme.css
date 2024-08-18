@@ -1,0 +1,137 @@
+:root {
+  --primitives-color-black: rgba(0, 5, 14, 1);
+  --primitives-color-blue: rgba(7, 96, 251, 1);
+  --primitives-color-dodgerblue: rgba(75, 141, 255, 1);
+  --primitives-color-gray-100: rgba(244, 244, 244, 1);
+  --primitives-color-gray-200: rgba(217, 217, 217, 1);
+  --primitives-color-gray-300: rgba(151, 151, 151, 1);
+  --primitives-color-gray-400: rgba(113, 113, 113, 1);
+  --primitives-color-gray-50: rgba(249, 249, 249, 1);
+  --primitives-color-gray-500: rgba(57, 57, 57, 1);
+  --primitives-color-lightblue: rgba(226, 235, 250, 1);
+  --primitives-color-white: rgba(255, 255, 255, 1);
+  --primitives-rounded-full: 9999px;
+  --primitives-rounded-lg: 16px;
+  --primitives-rounded-md: 8px;
+  --primitives-rounded-none: 0px;
+  --primitives-rounded-sm: 4px;
+  --primitives-rounded-xl: 32px;
+  --primitives-rounded-xs: 2px;
+  --primitives-space-1: 4px;
+  --primitives-space-1-half: 6px;
+  --primitives-space-10: 40px;
+  --primitives-space-10-half: 42px;
+  --primitives-space-2: 8px;
+  --primitives-space-2-half: 10px;
+  --primitives-space-3: 12px;
+  --primitives-space-3-half: 14px;
+  --primitives-space-4: 16px;
+  --primitives-space-4-half: 18px;
+  --primitives-space-5: 20px;
+  --primitives-space-5-half: 22px;
+  --primitives-space-6: 24px;
+  --primitives-space-6-half: 26px;
+  --primitives-space-7: 28px;
+  --primitives-space-7-half: 30px;
+  --primitives-space-8: 32px;
+  --primitives-space-8-half: 34px;
+  --primitives-space-9: 36px;
+  --primitives-space-9-half: 38px;
+  --primitives-space-half: 2px;
+  --primitives-space-none: 0px;
+  --semantics-background: var(--primitives-color-white);
+  --semantics-button-background: var(--primitives-color-blue);
+  --semantics-button-disabled-background: var(--primitives-color-gray-200);
+  --semantics-button-disabled-label: var(--primitives-color-gray-300);
+  --semantics-button-label: var(--primitives-color-lightblue);
+  --semantics-button-secondary-background: var(--primitives-color-lightblue);
+  --semantics-button-secondary-label: var(--primitives-color-blue);
+  --semantics-checkbox-active: var(--primitives-color-blue);
+  --semantics-checkbox-checked: var(--primitives-color-white);
+  --semantics-checkbox-deactive: var(--primitives-color-gray-200);
+  --semantics-dialog-background: var(--primitives-color-white);
+  --semantics-dialog-title: var(--primitives-color-blue);
+  --semantics-dim-background: rgba(249, 249, 249, 0.15);
+  --semantics-do-it-background: var(--primitives-color-white);
+  --semantics-do-it-divider: var(--primitives-color-gray-200);
+  --semantics-do-it-forground: var(--primitives-color-gray-400);
+  --semantics-do-it-title: var(--primitives-color-blue);
+  --semantics-forground: var(--primitives-color-black);
+  --semantics-input-focus: var(--primitives-color-blue);
+  --semantics-input-normal: var(--primitives-color-gray-300);
+  --semantics-logo-box: var(--primitives-color-blue);
+  --semantics-logo-checkmark: var(--primitives-color-gray-300);
+  --semantics-logo-mono: var(--primitives-color-black);
+  --semantics-logo-text: var(--primitives-color-black);
+  --semantics-primary: var(--primitives-color-blue);
+  --semantics-secondary: var(--primitives-color-lightblue);
+  --semantics-select-background: var(--primitives-color-white);
+  --semantics-select-border: var(--primitives-color-gray-200);
+  --semantics-select-forground: var(--primitives-color-gray-300);
+  --semantics-select-selected: var(--primitives-color-blue);
+  --semantics-status-active: var(--primitives-color-blue);
+  --semantics-status-deactive: var(--primitives-color-gray-300);
+  --semantics-text-date: var(--primitives-color-gray-400);
+  --semantics-text-headline: var(--semantics-forground);
+  --semantics-time-focus: var(--primitives-color-blue);
+  --semantics-time-normal: var(--primitives-color-gray-300);
+  --semantics-viewport: var(--primitives-color-gray-50);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-semantics-mode="light">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-semantics-mode="light"] {
+  --semantics-background: var(--primitives-color-white);
+  --semantics-button-disabled-background: var(--primitives-color-gray-200);
+  --semantics-button-secondary-label: var(--primitives-color-blue);
+  --semantics-checkbox-deactive: var(--primitives-color-gray-200);
+  --semantics-dialog-background: var(--primitives-color-white);
+  --semantics-dim-background: rgba(249, 249, 249, 0.15);
+  --semantics-do-it-background: var(--primitives-color-white);
+  --semantics-forground: var(--primitives-color-black);
+  --semantics-input-focus: var(--primitives-color-blue);
+  --semantics-input-normal: var(--primitives-color-gray-300);
+  --semantics-logo-mono: var(--primitives-color-black);
+  --semantics-logo-text: var(--primitives-color-black);
+  --semantics-primary: var(--primitives-color-blue);
+  --semantics-secondary: var(--primitives-color-lightblue);
+  --semantics-select-background: var(--primitives-color-white);
+  --semantics-select-border: var(--primitives-color-gray-200);
+  --semantics-text-date: var(--primitives-color-gray-400);
+  --semantics-time-focus: var(--primitives-color-blue);
+  --semantics-time-normal: var(--primitives-color-gray-300);
+  --semantics-viewport: var(--primitives-color-gray-50);
+}
+
+[data-semantics-mode="dark"] {
+  --semantics-background: var(--primitives-color-black);
+  --semantics-button-disabled-background: var(--primitives-color-gray-500);
+  --semantics-button-secondary-label: var(--primitives-color-dodgerblue);
+  --semantics-checkbox-deactive: var(--primitives-color-gray-300);
+  --semantics-dialog-background: var(--primitives-color-black);
+  --semantics-dim-background: rgba(255, 255, 255, 0.1);
+  --semantics-do-it-background: var(--primitives-color-lightblue);
+  --semantics-forground: var(--primitives-color-white);
+  --semantics-input-focus: var(--primitives-color-white);
+  --semantics-input-normal: var(--primitives-color-gray-400);
+  --semantics-logo-mono: var(--primitives-color-white);
+  --semantics-logo-text: var(--primitives-color-white);
+  --semantics-primary: var(--primitives-color-lightblue);
+  --semantics-secondary: var(--primitives-color-blue);
+  --semantics-select-background: var(--primitives-color-black);
+  --semantics-select-border: var(--primitives-color-gray-400);
+  --semantics-text-date: var(--primitives-color-gray-200);
+  --semantics-time-focus: var(--primitives-color-dodgerblue);
+  --semantics-time-normal: var(--primitives-color-gray-400);
+  --semantics-viewport: var(--primitives-color-black);
+}

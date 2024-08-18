@@ -1,8 +1,7 @@
 // 필요한 페이지 import 하기
 
 import React from "react";
-import Home from "../pages/pageSample";
-
+import Home from "../pages/Home";
 const routes = [
   {
     title: "홈페이지",
