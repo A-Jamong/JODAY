@@ -1,0 +1,8 @@
+[build]
+  publish = "dist"  # 빌드된 파일이 위치할 디렉터리
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
