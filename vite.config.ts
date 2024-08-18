@@ -21,6 +21,11 @@ const viteConfig = defineConfig({
   },
   build: {
     outDir: "dist", // Netlify 배포 디렉터리
+    rollupOptions: {
+      input: {
+        main: fileURLToPath(new URL("./index.html", import.meta.url)),
+      },
+    },
   },
 });
 

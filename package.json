@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "clean": "rm -rf dist",
     "preview": "vite preview",
     "lint": "eslint \"./src/**\" --report-unused-disable-directives --ignore-pattern .gitignore",
     "compile:jsx": "tsc -p ./tsconfig.json",

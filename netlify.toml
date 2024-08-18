@@ -1,5 +1,6 @@
 [build]
-  publish = "dist"  # 빌드된 파일이 위치할 디렉터리
+  publish = "dist"
+  command = "npm run build"
 
 [[redirects]]
   from = "/*"
