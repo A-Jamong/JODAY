@@ -2,11 +2,11 @@ import React from "react";
 import S from "./Status.module.css";
 
 interface StatusProps {
-  count: string;
+  count: number;
   state: "doing" | "done" | "all" | "keep";
 }
 
-const Status = ({ count = "0", state }: StatusProps) => {
+const Status = ({ count = 0, state }: StatusProps) => {
   return (
     <div className={S.status}>
       <span className={`${S.label} ${S[state]}`}>

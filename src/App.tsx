@@ -14,7 +14,12 @@ const App = () => {
       <Title titleText="우리, 오늘 뭐할까?" />
       <TodayDate />
       <Button label="생각났어?" type="primary" isShowIcon />
-      <Navigation />
+      <Navigation
+        total={10}
+        todoCount={10}
+        completedCount={10}
+        keepCount={20}
+      />
       {/* <TodoList /> */}
     </div>
   );

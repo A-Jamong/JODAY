@@ -14,7 +14,14 @@ const Navigation = ({
   completedCount,
   keepCount,
 }: NavagationProps) => {
-  return <Status state="all" count="9" />;
+  return (
+    <nav>
+      <Status state="all" count={total} />
+      <Status state="doing" count={todoCount} />
+      <Status state="done" count={completedCount} />
+      <Status state="keep" count={keepCount} />
+    </nav>
+  );
 };
 
 export default Navigation;
