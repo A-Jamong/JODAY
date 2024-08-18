@@ -1,5 +1,6 @@
-function App() {
+import React from "react";
 
+function App() {
   // console.log(thisisreactfuntion);
   return (
     <div className="App">
