@@ -1,12 +1,23 @@
 import React from "react";
-import AppRouter from "./Router";
-function App() {
-  // console.log(thisisreactfuntion);
+
+import Logo from "./components/logo";
+import Title from "./components/Title";
+import TodayDate from "./components/Date";
+import Button from "./components/Button";
+// import { Navigation } from "./components/Navigation";
+// import { TodoList } from "./components/TodoList";
+
+const App = () => {
   return (
-    <div className="App">
-      <AppRouter />
+    <div>
+      <Logo type="stereo" />
+      <Title titleText="우리, 오늘 뭐할까?" />
+      <TodayDate />
+      <Button label="생각났어?" type="primary" isShowIcon />
+      {/* <Navigation /> */}
+      {/* <TodoList /> */}
     </div>
   );
-}
+};
 
 export default App;
