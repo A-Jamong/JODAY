@@ -6,7 +6,7 @@
   "description": "Vite 커스텀 템필릇을 사용해 React 프로젝트 오토 스캐폴딩",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "clean": "rm -rf dist",
     "preview": "vite preview",
     "lint": "eslint \"./src/**\" --report-unused-disable-directives --ignore-pattern .gitignore",
