@@ -3,7 +3,7 @@ import { fileURLToPath, URL } from "node:url";
 import pluginReact from "@vitejs/plugin-react";
 
 const viteConfig = defineConfig({
-  base: "/",
+  base: "./",
   server: {
     host: "localhost",
     port: 3000,
@@ -23,7 +23,7 @@ const viteConfig = defineConfig({
     outDir: "dist", // Netlify 배포 디렉터리
     rollupOptions: {
       input: {
-        main: fileURLToPath(new URL("/index.html", import.meta.url)),
+        main: fileURLToPath(new URL("./index.html", import.meta.url)),
       },
     },
   },
