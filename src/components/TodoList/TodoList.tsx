@@ -3,6 +3,6 @@ import Todo from "../\bTodo/Todo";
 interface TodoLIstProps {}
 
 const TodoList = () => {
-  return <Todo />;
+  // return <Todo />;
 };
 export default TodoList;

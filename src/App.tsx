@@ -21,7 +21,7 @@ const App = () => {
         completedCount={10}
         keepCount={20}
       />
-      <TodoList />
+      {/* <TodoList /> */}
     </div>
   );
 };
