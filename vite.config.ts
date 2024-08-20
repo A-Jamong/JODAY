@@ -3,7 +3,7 @@ import { fileURLToPath, URL } from "node:url";
 import pluginReact from "@vitejs/plugin-react";
 
 const viteConfig = defineConfig({
-  base: "./",
+  base: "/",
   server: {
     host: "localhost",
     port: 3000,
