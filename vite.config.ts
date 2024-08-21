@@ -19,14 +19,14 @@ const viteConfig = defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
-  // build: {
-  //   outDir: "dist", // Netlify 배포 디렉터리
-  //   rollupOptions: {
-  //     input: {
-  //       main: fileURLToPath(new URL("./index.html", import.meta.url)),
-  //     },
-  //   },
-  // },
+  build: {
+    outDir: "dist", // Netlify 배포 디렉터리
+    // rollupOptions: {
+    //   input: {
+    //     main: fileURLToPath(new URL("./index.html", import.meta.url)),
+    //   },
+    // },
+  },
 });
 
 export default viteConfig;

@@ -1,10 +1,9 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    // "baseUrl": "./",
-    // "paths": {
-    //   "@/*": ["src/*"]
-    // },
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "target": "ESNext",
     "module": "ESNext",
     "jsx": "react-jsx",
@@ -14,6 +13,5 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  // "include": ["src", "src/index.tsx"]
   "include": ["src"]
 }
